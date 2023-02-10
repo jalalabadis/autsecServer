@@ -1,0 +1,17 @@
+{
+  "name": "autsec-server",
+  "version": "1.0.0",
+  "description": "Backend for autsec",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Jalalabadi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "stripe": "^11.10.0"
+  }
+}
